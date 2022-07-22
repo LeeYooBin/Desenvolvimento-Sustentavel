@@ -11,7 +11,6 @@ export default function Main(){
         <>
             <Router>
                 <S.GlobalStyle />
-
                 <Routes>
                     <Route path='/' element={<Home />}></Route>
                 </Routes>
