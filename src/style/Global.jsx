@@ -27,7 +27,7 @@ export const Article = styled.article`
     }
 `;
 
-export const Intro = styled.p`
+export const Text = styled.p`
     text-align: left;
     margin-top: 2.5vh;
     font-size: 1em;
@@ -63,6 +63,10 @@ export const CardsWrapper = styled.div`
 
     @media screen and (min-width: 1000px){
         justify-content: flex-start;
+        gap: 2rem;
+    }
+
+    @media screen and (min-width: 1281px){
         gap: 1rem;
     }
 `;
@@ -87,8 +91,8 @@ export const Card = styled.div`
     }
 
     @media screen and (min-width: 1281px){
-        width: 11vw;
-        height: 20vh;
+        width: 12vw;
+        height: 22.5vh;
     }
 `;
 
@@ -114,18 +118,31 @@ export const CardTitle = styled.h3`
 
 export const Image = styled.img`
     margin-top: 2vh;
-    width: 20vw;
+    width: 60%;
     height: 7vh;
 
+    @media screen and (min-width: 500px){
+        width: 50%;
+    }
+
     @media screen and (min-width: 700px){
-        margin-top: 1vh;
+        margin-top: 2vh;
     }
 
     @media screen and (min-width: 1000px){
-        width: 8vw;
+        width: 50%;
     }
 
     @media screen and (min-width: 1281px){
-        height: 10vh
+        height: 35%
+        width: 45%;
+    }
+`;
+
+export const TextArea = styled.article`
+    padding: 2vh 5%;
+
+    @media screen and (min-width: 1000px){
+        padding: 5vh 10%;
     }
 `;

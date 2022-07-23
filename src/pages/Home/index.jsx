@@ -1,5 +1,4 @@
 import * as S from '../../style/Global';
-import '../../style/style.css';
 import Cards from '../../components/Cards';
 
 export default function Home(){
@@ -8,7 +7,7 @@ export default function Home(){
             <S.Home>
                 <S.Article>
                     <S.Title>Os objetivos do desenvolvimento sustentável</S.Title>
-                    <S.Intro>
+                    <S.Text>
                         Os Objetivos de Desenvolvimento Sustentável são um apelo global 
                         à ação para acabar com a pobreza, proteger o meio ambiente e o 
                         clima e garantir que as pessoas, em todos os lugares, possam 
@@ -41,7 +40,7 @@ export default function Home(){
                             PS: Por hora, a maioria dos cards está sem conteúdo, entretanto, em breve certamente
                             encontrarei uma solução para todos os problemas enfrentados e dissertarei sobre. 😉
                         </span>
-                    </S.Intro>
+                    </S.Text>
                 </S.Article>
                 <Cards />
             </S.Home>
